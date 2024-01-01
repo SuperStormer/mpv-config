@@ -1,6 +1,2 @@
-*
-!.gitignore
-!input.conf
-!mpv.conf
-!scripts/
-!scripts/*
+cache
+watch_later
