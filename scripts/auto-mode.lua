@@ -25,7 +25,7 @@ end
 function on_audio_mode_activate()
     mp.set_property("osd-playing-msg", "")                     -- disable osd-playing-msg for audio because osd-msg1 is used instead
     mp.set_property("osd-msg1", "${filtered-metadata}")        -- always show metadata in audio mode. In mpv.conf define: display-tags = Artist,Title,Album,Date,Genre,Comment,Description
-    mp.set_property("keep-open", "yes")                        -- for audio files automatically progress to the next file
+    -- mp.set_property("keep-open", "yes")                        -- for audio files automatically progress to the next file
     mp.command("script-message osc-visibility always no_osd")  -- always show osc for audio files
 end
 
@@ -58,10 +58,10 @@ function on_type_change(old_ext, new_ext)
 end
 
 audio_mode_bindings = {
-    { "Left",   function () mp.command("no-osd seek -10") end,              { repeatable = true } }, -- audio seek length longer than video seek length
-    { "Right",  function () mp.command("no-osd seek  10") end,              { repeatable = true } }, -- audio seek length longer than video seek length
-    { "0",      function () mp.command("script-message-to trash_tracker trash-track") end         }, -- personal code
-    { "KP0",    function () mp.command("script-message-to trash_tracker trash-track") end         }, -- personal code
+    --{ "Left",   function () mp.command("no-osd seek -10") end,              { repeatable = true } }, -- audio seek length longer than video seek length
+    --{ "Right",  function () mp.command("no-osd seek  10") end,              { repeatable = true } }, -- audio seek length longer than video seek length
+    --{ "0",      function () mp.command("script-message-to trash_tracker trash-track") end         }, -- personal code
+    --{ "KP0",    function () mp.command("script-message-to trash_tracker trash-track") end         }, -- personal code
 }
 
 image_mode_bindings = {
