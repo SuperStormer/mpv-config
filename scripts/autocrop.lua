@@ -293,6 +293,6 @@ function on_toggle()
     detect_crop()
 end
 
-mp.add_key_binding("alt+c", "toggle_crop", on_toggle)
+mp.add_key_binding(nil, "toggle_crop", on_toggle)
 mp.register_event("end-file", cleanup)
 mp.register_event("file-loaded", on_start)

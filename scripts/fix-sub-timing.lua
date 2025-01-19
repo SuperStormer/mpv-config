@@ -67,4 +67,4 @@ function sub_set_time()
     mp.set_property_native("sub-speed", new_speed)
 end
 
-mp.add_key_binding("alt+w", "sub-set-time", sub_set_time)
+mp.add_key_binding(nil, "sub-set-time", sub_set_time)

@@ -254,6 +254,6 @@ function log(string, secs)
 end
 
 
-mp.add_key_binding('alt+c', 'download_subs', download_subs)
+mp.add_key_binding(nil, 'download_subs', download_subs)
 -- mp.add_key_binding('n', 'download_subs2', download_subs2)
 mp.register_event('file-loaded', control_downloads)

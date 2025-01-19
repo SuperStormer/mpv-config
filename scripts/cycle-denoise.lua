@@ -2,7 +2,7 @@
 -- key_binding: press the key specified below
 --      to cycle between denoise filters below,
 --      set it to nil to disable the binding
-local key_binding = "Ctrl+n"
+local key_binding = nil
 -- key_binding_reverse cycle between denoise filters below
 --      in reverse order, set it to nil to disable the binding,
 --      set it to a single-char string to enable
@@ -85,10 +85,5 @@ function cycle_denoise_reverse()
 
 end
 
-if key_binding then
-    mp.add_key_binding(key_binding, "denoise", cycle_denoise)
-end
-
-if key_binding_reverse then
-    mp.add_key_binding(key_binding_reverse, "denoise-reverse", cycle_denoise_reverse)
-end
+mp.add_key_binding(nil, "denoise", cycle_denoise)
+mp.add_key_binding(nil, "denoise-reverse", cycle_denoise_reverse)

@@ -546,11 +546,11 @@ function list_meta:get_input(get_flags)
     coroutine_resume_err(co)
 end
 
-mp.add_key_binding("f12", "open-search-page", function()
+mp.add_key_binding(nil, "open-search-page", function()
     CURRENT_PAGE:open_wrapper()
 end)
 
-mp.add_key_binding("Shift+f12", "open-search-page/advanced", function()
+mp.add_key_binding(nil, "open-search-page/advanced", function()
     CURRENT_PAGE:open_wrapper(true)
 end)
 

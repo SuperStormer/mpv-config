@@ -75,4 +75,4 @@ if platform == UNIX then
     clipboard_cmd = get_clipboard_cmd()
 end
 
-mp.add_key_binding("Ctrl+p", "copyTime", copyTime)
+mp.add_key_binding(nil, "copyTime", copyTime)
