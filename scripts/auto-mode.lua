@@ -1,4 +1,4 @@
-
+-- https://github.com/stax76/mpv-scripts
 --[[
     This script changes options depending on what type of
     file is played. It uses the file extension to detect

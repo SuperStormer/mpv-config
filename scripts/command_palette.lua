@@ -1,4 +1,3 @@
-
 -- https://github.com/stax76/mpv-scripts
 
 ----- options
@@ -303,7 +302,7 @@ function binding_get_line(self, _, v)
 
     ass:append(self:get_font_color('accent'))
     ass:append(key)
-    ass:append(self.get_font_color('comment'))
+    ass:append(self:get_font_color('comment'))
     ass:append(' ' .. cmd)
     return ass.text
 end

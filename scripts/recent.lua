@@ -1,3 +1,4 @@
+-- https://github.com/natural-harmonia-gropius/recent-menu
 local o = {
     -- Automatically save to log, otherwise only saves when requested
     -- you need to bind a save key if you disable it

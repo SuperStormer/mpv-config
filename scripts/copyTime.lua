@@ -1,3 +1,4 @@
+-- https://github.com/Arieleg/mpv-copyTime
 require 'mp'
 require 'mp.msg'
 

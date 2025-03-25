@@ -1,3 +1,4 @@
+-- https://gist.github.com/myfreeer/d744c445aa71c0eeb165ca39cf6c0511
 -- settings
 -- key_binding: press the key specified below
 --      to cycle between denoise filters below,

@@ -1,3 +1,4 @@
+-- https://github.com/wiiaboo/mpv-scripts/
 --[[
 How to use:
 

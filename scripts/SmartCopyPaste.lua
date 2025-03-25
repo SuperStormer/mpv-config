@@ -1,3 +1,4 @@
+-- https://github.com/Eisa01/mpv-scripts
 -- Copyright (c) 2022, Eisa AlAwadhi
 -- License: BSD 2-Clause License
 -- Creator: Eisa AlAwadhi

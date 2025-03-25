@@ -1,3 +1,4 @@
+-- https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autodeint.lua
 -- This script uses the lavfi idet filter to automatically insert the
 -- appropriate deinterlacing filter based on a short section of the
 -- currently playing video.
