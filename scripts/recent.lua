@@ -1,4 +1,4 @@
--- https://github.com/natural-harmonia-gropius/recent-menu
+-- https://github.com/hacel/recent
 local o = {
     -- Automatically save to log, otherwise only saves when requested
     -- you need to bind a save key if you disable it
